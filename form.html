@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing:border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .first{
+            height: 90vh;
+            display: flex;
+        
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            justify-items: center;
+            
+        }
+        .content{
+            background-color: rgb(102, 102 , 126);
+            width: 50%;
+            height: 50%;
+            box-shadow: 4px 4px 40px black;
+        }
+        h1{
+            font-size: 150%;
+        }
+        .top{
+            display: flex;
+            height: 50%;
+           
+            justify-content: center;
+            gap: 20px;
+        }
+        .top1{
+            display: flex;
+            flex-direction: column;
+            height: 50%;
+             
+            justify-content: center;
+            gap: 20px;
+        }
+        
+
+        
+        .top2{
+            display: flex;
+            flex-direction: column;
+            height: 50%;
+             
+            justify-content: center;
+            gap: 20px;
+
+        }
+        .entity input{
+            height: 70%;
+            width: 90%;
+        }
+        .gender{
+            width: 100%;
+            border: 2px solid;
+        }
+        .gender-category{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 30px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <div class="first">
+            <div class="content">
+                <h1>REGISTRATION</h1>
+                <hr>
+            </div>
+            <top>
+               <div class="top1">
+                   <div class="entity">
+                        <lable for="name">Full NAME</lable>
+                        <input type="text" placeholder="Full Name">
+                
+                   </div>
+                   <div class="entity">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Email">
+                   </div>
+                   <div class="entity">
+                    <label for="password">Password</label>
+                    <input type="password"placeholder="password">
+                   </div>
+
+               </div>
+               <div class="top2">
+                   <div class="entity">
+                      <label for="username">User Name</label>
+                       <input type="text"placeholder="User Name">
+                   </div>
+                   <div class="entity">
+                        <label for="number">Phone number</label>
+                        <input type="tel"placeholder="PhoneNumber">
+                   </div>
+                   <div class="entity">
+                    <label for="password">Password</label>
+                    <input type="password"placeholder="password">
+                   </div>
+               </div>
+            </top>   
+               <div class="gender"></div>
+               <label for="gender">Gender</label>
+               <div class="gendor-category">
+                     <div class="category1">
+                        <label for="female">Female</label>
+                        <input type="radio" id="female" name="gender">
+                     </div>
+
+                     <div class="category2">
+                        <label for="male">Male</label>
+                        <input type="radio" id="male" name="gender">
+                     </div>
+
+                     <div class="category3">
+                        <label for="OTHER">Other</label>
+                        <input type="radio" id="other" name="gender">
+                     </div>
+               </div>
+        </div>
+
+    </form>
+</body>
+</html>
