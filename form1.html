@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .container{
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: darkblue;
+        }
+        h2{
+            font-size: 2rem;
+        }
+        hr{
+            border: solid red;
+        }
+        .left{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            gap: 20px;
+        }
+        .right{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="#"></form>
+        <h2>REGISTRATION</h2>
+        <hr>
+    </div>
+    <div class="content">
+        <div class="left">
+            <div class="input-box">
+                <lable for="name">Full NAME</lable>
+                        <input type="text" placeholder="Full Name">
+            </div>
+            
+
+            </div>
+            <div class="input-box">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <label for="password">Password</label>
+                <input type="password"placeholder="password">
+            </div>
+
+        </div>
+        <div class="right">   
+            <div class="input-box">
+                <label for="username">User Name</label>
+                <input type="text"placeholder="User Name">
+            </div>
+            <div class="input-box">
+                <label for="number">Phone number</label>
+                <input type="tel"placeholder="PhoneNumber">
+            </div>
+            <div class="input-box">
+                    <label for="password">Password</label>
+                    <input type="password"placeholder="password">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
